@@ -1,0 +1,107 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+	<script language="javascript">
+		function loadSoundAndAutoplay() {
+			createjs.Sound.registerSound("audios/criancasParque.wav", "criancas");
+			createjs.Sound.addEventListener("fileload", fileReady);
+		}
+		
+		function fileReady(event) {
+			createjs.Sound.play("criancas");
+		}
+		
+		function mudarCapa () {
+			window.location.href = "index.html";
+		}
+		
+		function comMascara() {
+			var logoMascara = document.getElementById("logo");
+			logoMascara.src = "imagens/logomascara.png";
+			logoMascara.id = "logoMascara";
+		}
+		
+		function semMascara() {
+			var semMascara = document.getElementById("logoMascara");
+			semMascara.src = "imagens/logo.png";
+			semMascara.id = "logo";
+		}
+		
+		function mudarLivro () {
+			window.location.href = "livro.html";
+		}
+		
+		function appear1(){
+			opacity1 = 0;
+			timerFadeIn = window.setInterval(fadeIn, 120);
+		}
+		
+		function fadeIn() {
+			var opacityRegisto = Number(botaoAbrirLivro.style.opacity);
+			if (opacityRegisto < 0.9999999999999999) {
+			opacity1 = opacity1 + 0.1;
+			botaoAbrirLivro.style.opacity = "" + opacity1;
+			} else {
+				botaoAbrirLivro.style.opacity = "1";
+				window.clearInterval(timerFadeIn);
+				appear2();
+			}
+		}
+		
+		function appear2() {
+			opacity2 = 1;
+			timerFadeOut = window.setInterval(fadeOut, 120);
+		}
+		function fadeOut() {
+			var opacityRegisto2 = Number(botaoAbrirLivro.style.opacity);
+			if (opacityRegisto2 > 0) {
+			opacity2 = opacity2 - 0.1;
+			botaoAbrirLivro.style.opacity = "" + opacity2;
+			} else {
+				botaoAbrirLivro.style.opacity = "0";
+				window.clearInterval(timerFadeOut);
+				requestAnimationFrame(appear1);
+			}
+		}
+		
+		function startApp() {	
+			loadSoundAndAutoplay();
+			appear1();
+		}
+	</script>
+</head>
+<body onload="startApp()">
+	<script language="javascript">
+		var fundoCapa = document.createElement("DIV");
+		fundoCapa.id = "fundoCapa";
+		document.body.appendChild(fundoCapa);
+		
+		var logo = document.createElement("IMG");
+		logo.src = "imagens/logo.png";
+		logo.id = "logo";
+		document.body.appendChild(logo);
+		logo.addEventListener("mouseover", comMascara);
+		logo.addEventListener("mouseout", semMascara);
+		logo.addEventListener("click", mudarCapa);
+		
+		var divAbrirLivro = document.createElement("DIV");
+		divAbrirLivro.id = "divAbrirLivro";
+		var botaoAbrirLivro = document.createElement("IMG");
+		botaoAbrirLivro.src = "imagens/entrarlivro.png";
+		botaoAbrirLivro.id = "botaoAbrirLivro";
+		botaoAbrirLivro.style.opacity = "0.0";
+		botaoAbrirLivro.addEventListener("click", mudarLivro);
+		document.body.appendChild(divAbrirLivro);
+		divAbrirLivro.appendChild(botaoAbrirLivro);
+		
+		var opacity1;
+		var timerFadeIn;
+		
+		var opacity2;
+		var timerFadeOut;
+		
+	</script>
+</body>
+
+</html>

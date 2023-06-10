@@ -1,0 +1,1064 @@
+body {
+ padding: 0%;
+ margin: 0%;
+ font-family: Kristen ITC;
+ text-align: center;
+ color: 686767;
+}
+
+#logo {
+	position: absolute;
+	width: 17.7%;
+	height: 35.6%;
+	left: -3.56%;
+	top: -9%;
+}
+
+#logoMascara {
+	position: absolute;
+	width: 17%;
+	height: 36%;
+	left: -3.2%;
+	top: -9%;
+	cursor: pointer;
+}
+
+/*--------------------C A P A----------------------------*/
+
+#fundoCapa {
+ background-image: url("imagens/capa.png");
+ background-color: #cccccc;
+ height: 100%;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ position: relative;
+}
+
+#divAbrirLivro {
+	position: absolute;
+	width: 12.8%;
+	height: 25.7%;
+	right: 32%;
+	top: 65%;
+}
+
+#botaoAbrirLivro {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+/*--------------------L I V R O----------------------------*/
+
+#fundoLivroAberto {
+ background-image: url("imagens/livroaberto.png");
+ background-color: #cccccc;
+ height: 100%;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ position: relative;
+}
+
+#botaoIndice {
+	position: absolute;
+	width: 9.2%;
+	height: 18.5%;
+	right: 0.7%;
+	top: 1.4%;
+	cursor: pointer;
+}
+
+.setaTras {
+	position: absolute;
+	width: 4.8%;
+	height: auto;
+	left: 2%;
+	top: 89%;
+	cursor: pointer;
+}
+
+.setaFrente {
+	position: absolute;
+	width: 4%;
+	height: auto;
+	left: 93.9%;
+	top: 89%;
+	cursor: pointer;
+}
+
+#borracha {
+	position: absolute;
+	width: 11%;
+	height: auto;
+	left: 88%;
+	top: 83%;
+}
+
+/*--------------------Folha 1 - Índice - Página 1--------------------*/
+	#div1 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+	
+	#postIt {
+		position: absolute;
+		width: 30%;
+		height: auto;
+		left: 12%;
+		top: 8%;
+	}
+
+	#divTituloPrefacio {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 9%;
+		top: 15%;
+	}
+
+	#tituloPrefacio {
+		font-size: 125%;
+	}
+
+	#divTextoPrefacio {
+		position: absolute;
+		width: 26%;
+		height: 55%;
+		left: 13%;
+		top: 33%;
+	}
+
+	#textoPrefacio {
+		font-size: 100%;
+	}
+
+/*--------------------Folha 1 - Índice - Página 2*/
+	#mapa {
+		position: absolute;
+		width: 37.5%;
+		height: auto;
+		left: 56%;
+		top: 0.2%;
+	}
+	
+		#mapaRelampago {
+			position: absolute;
+			width: 13%;
+			height: auto;
+			left: 61%;
+			top: 5%;
+			cursor: pointer;
+		}
+		
+		#mapaDesenhos {
+			position: absolute;
+			width: 10%;
+			height: auto;
+			left: 71%;
+			top: 20%;
+			cursor: pointer;
+		}
+		
+		#mapaAprofundadas {
+			position: absolute;
+			width: 11%;
+			height: auto;
+			left: 71%;
+			top: 40%;
+			cursor: pointer;
+		}
+
+		#mapaPais {
+			position: absolute;
+			width: 13%;
+			height: auto;
+			left: 59%;
+			top: 45%;
+			cursor: pointer;
+		}
+		
+		#mapaEstatisticas {
+			position: absolute;
+			width: 13%;
+			height: auto;
+			left: 67%;
+			top: 61%;
+			cursor: pointer;
+		}
+		
+		#mapaProfissionais {
+			position: absolute;
+			width: 13%;
+			height: auto;
+			left: 75%;
+			top: 61%;
+			cursor: pointer;
+		}
+
+/*--------------------Folha 2 - Relâmpago - Página 1--------------------*/
+	#div2 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+	
+	#audioRelampago1 {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 17%;
+		left: 5%;
+		cursor: pointer;
+	}
+	
+	#audioRelampago1Stop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 17%;
+		left: 5%;
+		cursor: pointer;
+	}
+
+	#divTituloRelampago {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8%;
+		top: 2%;
+	}
+
+	#tituloRelampago {
+		font-size: 125%;
+	}
+
+	#divTextoRelampago {
+		position: absolute;
+		width: 35%;
+		height: 27%;
+		left: 9.4%;
+		top: 14%;
+	}
+
+	#textoRelampago {
+		font-size: 100%;
+	}
+
+	#ilustracao1 {
+		position: absolute;
+		width: 32%;
+		height: auto;
+		left: 12.5%;
+		top: 13%;
+	}
+
+/*--------------------Folha 2 - Relâmpago - Página 2*/
+	#divTextoRelampago2 {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 58%;
+		top: 7.2%;
+		 
+	}
+	#textoRelampago2 {
+		 
+		font-size: 100%;
+		text-align:center;
+	}
+	
+	#audioRelampago2 {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 9.6%;
+		left: 54%;
+		cursor: pointer;
+	}
+	
+	#audioRelampago2Stop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 9.6%;
+		left: 54%;
+		cursor: pointer;
+	}
+	
+	#video1 {
+		position: absolute;
+		top: 35%;
+		left: 56%;
+		width: 37%;
+		height: 57%;
+		cursor: pointer;
+	}
+
+/*--------------------Folha 3 - Desenhos - Página 1--------------------*/
+	#div3 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+
+	#divTituloDesenhos {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 9%;
+		top: 2%;
+	}
+
+	#tituloDesenhos {
+		font-size: 125%;
+	}
+	
+	#desenhoA {
+		position: absolute;
+		width: 19%;
+		height: auto;
+		left: 7%;
+		top: 20%;
+	}
+	
+	#divTextodesenhoA {
+		position: absolute;
+		width: 15%;
+		height: 12%;
+		left: 27%;
+		top: 17%;
+	}
+	
+	#textodesenhoA {
+		text-align: left;
+		font-size: 100%; 
+	}
+	
+	#desenhoB {
+		position: absolute;
+		width: 19%;
+		height: auto;
+		left: 29%;
+		top: 53%;
+	}
+	
+	#divTextodesenhoB {
+		position: absolute;
+		width: 15%;
+		height: 12%;
+		left: 13%;
+		top: 77%;
+	}
+	
+	#textodesenhoB {
+		text-align: right;
+		font-size: 100%;  
+	}
+
+/*--------------------Folha 3 - Desenhos - Página 2*/
+	#desenhoC {
+		position: absolute;
+		width: 19%;
+		height: auto;
+		left: 52%;
+		top: 8%;
+	}
+	
+	#divTextodesenhoC {
+		position: absolute;
+		width: 15%;
+		height: 12%;
+		left: 72%;
+		top: 5%;
+	}
+	
+	#textodesenhoC {
+		font-size: 100%;
+		text-align: left;
+	}
+	
+	#desenhoD {
+		position: absolute;
+		width: 19%;
+		height: auto;
+		left: 75%;
+		top: 56%;
+	}
+	
+	#divTextodesenhoD {
+		position: absolute;
+		width: 15%;
+		height: 12%;
+		left: 59%;
+		top: 77%;
+	}
+	
+	#textodesenhoD {
+		text-align: right;
+		font-size: 100%; 
+	}
+
+/*--------------------Folha 4 - Aprofundadas - Página 1--------------------*/
+	#div4 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+	
+	#ilustracao2 {
+		position: absolute;
+		width: 50%;
+		height: auto;
+		left: 1%;
+		top: 10%;
+	}
+
+/*--------------------Folha 4 - Aprofundadas - Página 2*/
+
+	#divTextoAprofundadas2 {
+		position: absolute;
+		width: 40%;
+		height: 12%;
+		left: 55.5%;
+		top: 1.5%;
+	}
+	#textoAprofundadas2 {
+		font-size: 100%; 
+	}
+	
+	#audioAprofundadas {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 9.6%;
+		left: 52%;
+		cursor: pointer;
+	}
+	
+	#audioAprofundadasStop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 9.6%;
+		left: 52%;
+		cursor: pointer;
+	}
+	
+	#video2 {
+		position: absolute;
+		top: 33%;
+		left: 56.5%;
+		width: 37%;
+		height: 57%;
+		cursor: pointer;
+	}
+
+/*--------------------Folha 5 - Pais - Página 1--------------------*/
+	#div5 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+	
+	#audioPais1 {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 14%;
+		left: 5%;
+		cursor: pointer;
+	}
+	
+	#audioPais1Stop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 14%;
+		left: 5%;
+		cursor: pointer;
+	}
+
+	#divTituloPais {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8.8%;
+		top: 2%;
+	}
+
+	#tituloPais {
+		 
+		font-size: 125%;
+	}
+	
+	#divTextoPais1 {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8.5%;
+		top: 13%;
+	}
+	
+	#textoPais1 {
+		 
+		font-size: 100%;
+	}
+	
+	#ilustracao3 {
+		position: absolute;
+		width: 23%;
+		height: auto;
+		left: 14.5%;
+		top: 38%;
+	}
+
+/*--------------------Folha 5 - Pais - Página 2*/
+	#thumbnailPais1 {
+		position: absolute;
+		top: 6%;
+		left: 60.5%;
+		width: 26%;
+	}
+	#botaoPlayVideoPais1 {
+		position: absolute;
+		top: 23.5%;
+		left: 68%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoPais1 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+	
+	#thumbnailPais2 {
+		position: absolute;
+		top: 7%;
+		left: 63%;
+		width: 26%;
+	}
+	#botaoPlayVideoPais2 {
+		position: absolute;
+		top: 50%;
+		left: 79%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoPais2 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+	
+	#fecharVideoPais {
+		position: absolute;
+		top: 5%;
+		left: 4%;
+		width: 11%;
+		cursor: pointer;
+	}
+	
+	#audioPais2 {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 80%;
+		left: 55.5%;
+		cursor: pointer;
+	}
+	
+	#audioPais2Stop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 80%;
+		left: 55.5%;
+		cursor: pointer;
+	}
+	
+	#divTextoPais2 {
+		position: absolute;
+		width: 32%;
+		height: 12%;
+		left: 59%;
+		top: 77%;	 
+	}
+	
+	#textoPais2 {
+		font-size: 100%;
+	}
+
+/*--------------------Folha 6 - Estatísticas - Página 1--------------------*/
+	#div6 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+		 
+	}
+
+	#divTituloEstatisticas {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8.8%;
+		top: 4%;
+	}
+
+	#tituloEstatisticas {
+		 
+		font-size: 125%;
+	}
+	
+	#pergunta {
+		position: absolute;
+		width: 25%;
+		height: auto;
+		left: 13%;
+		top: 42%;
+	}
+	
+		#texto1 {
+			position: absolute;
+			width: 11.5%;
+			height: auto;
+			left: 15%;
+			top: 26%;
+		}
+		#texto2 {
+			position: absolute;
+			width: 11%;
+			height: auto;
+			left: 37%;
+			top: 30%;
+		}
+		#texto3 {
+			position: absolute;
+			width: 19%;
+			height: auto;
+			left: 30%;
+			top: 60%;
+		}
+		#texto4 {
+			position: absolute;
+			width: 21.8%;
+			height: auto;
+			left: 24%;
+			top: 66%;
+		}
+		#texto5 {
+			position: absolute;
+			width: 16%;
+			height: auto;
+			left: 5.5%;
+			top: 65%;
+		}
+		#texto6 {
+			position: absolute;
+			width: 10.5%;
+			height: auto;
+			left: 3%;
+			top: 45%;
+		}
+
+/*--------------------Folha 6 - Estatísticas - Página 2*/
+	#grafico2a {
+		position: absolute;
+		width: 20%;
+		height: auto;
+		left: 52%;
+		top: 4%;
+	}
+	
+	#grafico2b {
+		position: absolute;
+		width: 10%;
+		height: auto;
+		left: 72%;
+		top: 3%;
+	}
+	
+	#grafico3 {
+		position: absolute;
+		width: 31.5%;
+		height: auto;
+		left: 66%;
+		top: 34%;
+	}
+	
+	#grafico4 {
+		position: absolute;
+		width: 28%;
+		height: auto;
+		left: 52%;
+		top: 63%;
+	}
+
+/*--------------------Folha 7 - Profissionais - Página 1--------------------*/
+	#div7 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+	}
+	
+	#audioProfissionais {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 24%;
+		left: 5%;
+		cursor: pointer;
+	}
+	
+	#audioProfissionaisStop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 24%;
+		left: 5%;
+		cursor: pointer;
+	}
+	
+	#divTituloProfissionais {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8.8%;
+		top: 4%;
+		}
+
+	#tituloProfissionais {
+		font-size: 125%; 
+	}
+	
+	#divTextoProfissionalGeral {
+		position: absolute;
+		width: 35%;
+		height: 40%;
+		left: 8.8%;
+		top: 18%;
+	}
+	
+	#textoProfissionalGeral {
+		font-size: 100%;
+	}
+	
+	#thumbnailProfissional1 {
+		position: absolute;
+		top: 58.5%;
+		left: 8%;
+		width: 11.5%;
+	}
+	#botaoPlayVideoProfissional1 {
+		position: absolute;
+		top: 69%;
+		left: 12%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoProfissional1 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+		#divTituloProfissional1 {
+			position: absolute;
+			width: 20%;
+			height: 30%;
+			left: 21%;
+			top: 60%;
+		}
+		#tituloProfissional1 {
+			text-align: left;
+			font-size: 115%;
+		}
+		#divTextoProfissional1 {
+			position: absolute;
+			width: 25%;
+			height: 25%;
+			left: 21%;
+			top: 69%;
+		}
+		#textoProfissional1 {
+			text-align: left;
+			font-size: 80%;
+		}
+
+/*--------------------Folha 7 - Profissionais - Página 2*/
+
+	#thumbnailProfissional2 {
+		position: absolute;
+		top: 5.5%;
+		left: 55%;
+		width: 11.5%;
+	}
+	#botaoPlayVideoProfissional2 {
+		position: absolute;
+		top: 16%;
+		left: 59%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoProfissional2 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+	
+		#divTituloProfissional2 {
+			position: absolute;
+			width: 20%;
+			height: 30%;
+			left: 67.5%;
+			top: 6.5%;
+		}
+		#tituloProfissional2 {
+			text-align: left;
+			font-size: 115%;
+		}
+		#divTextoProfissional2 {
+			position: absolute;
+			width: 25%;
+			height: 25%;
+			left: 67.5%;
+			top: 14.5%;
+		}
+		#textoProfissional2 {
+			text-align: left;
+			font-size: 80%;
+		}
+
+	#thumbnailProfissional3 {
+		position: absolute;
+		top: 33.5%;
+		left: 83%;
+		width: 11.5%;
+	}
+	#botaoPlayVideoProfissional3 {
+		position: absolute;
+		top: 44%;
+		left: 87%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoProfissional3 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+		
+		#divTituloProfissional3 {
+			position: absolute;
+			width: 20%;
+			height: 30%;
+			left: 62%;
+			top: 33%;
+		}
+		#tituloProfissional3 {
+			text-align: right;
+			font-size: 115%;
+		}
+		#divTextoProfissional3 {
+			position: absolute;
+			width: 26%;
+			height: 25%;
+			left: 56%;
+			top: 41%;
+		}
+		#textoProfissional3 {
+			text-align: right;
+			font-size: 80%;
+		}
+	
+	#thumbnailProfissional4 {
+		position: absolute;
+		top: 61%;
+		left: 55%;
+		width: 11.5%;
+	}
+	#botaoPlayVideoProfissional4 {
+		position: absolute;
+		top: 71.5%;
+		left: 59%;
+		width: 4%;
+		cursor: pointer;
+	}
+	#videoProfissional4 {
+		position: absolute;
+		top: 0.5%;
+		left: 18%;
+		width: 65.3%;
+		height: 100.3%;
+		cursor: pointer;
+	}
+	
+		#divTituloProfissional4 {
+			position: absolute;
+			width: 15%;
+			height: 30%;
+			left: 67.5%;
+			top: 62.5%;
+		}
+		#tituloProfissional4 {
+			text-align: left;
+			font-size: 115%;
+		}
+		#divTextoProfissional4 {
+			position: absolute;
+			width: 25%;
+			height: 25%;
+			left: 67.5%;
+			top: 71.5%;
+		}
+		#textoProfissional4 {
+			text-align: left;
+			font-size: 80%;
+		}
+		
+	#fecharVideoProfissional {
+		position: absolute;
+		top: 5%;
+		left: 4%;
+		width: 11%;
+		cursor: pointer;
+	}
+
+/*--------------------Folha 8 - Epílogo - Página 1--------------------*/
+	#div8 {
+		position: absolute;
+		width: 83%;
+		height: 63%;
+		left: 8%;
+		top: 18%;
+		 
+	}
+	
+	#audioEpilogo {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 8%;
+		left: 6.5%;
+		cursor: pointer;
+	}
+	
+	#audioEpilogoStop {
+		position: absolute;
+		width: 4%;
+		height: auto;
+		top: 8%;
+		left: 6.5%;
+		cursor: pointer;
+	}
+	
+	#divTituloEpilogo1Cima {
+		position: absolute;
+		width: 35%;
+		height: 12%;
+		left: 8.8%;
+		top: 5%;
+		}
+
+	#tituloEpilogo1Cima {
+		 
+		font-size: 125%;
+	}
+	
+	#divTextoEpilogo1Cima {
+		position: absolute;
+		width: 31%;
+		height: 40%;
+		left: 11%;
+		top: 3%;
+		}
+
+	#textoEpilogo1Cima {
+		font-size: 100%;
+	}
+	
+	#ilustracao4 {
+		position: absolute;
+		width: 23.7%;
+		height: 64.7%;
+		left: 15%;
+		top: 10%;
+	}
+	
+	#divTextoEpilogo1Baixo {
+		position: absolute;
+		width: 35%;
+		height: 40%;
+		left: 9%;
+		top: 75%;
+		}
+
+	#textoEpilogo1Baixo {
+		 
+		font-size: 100%;
+	}
+
+/*--------------------Folha 8 - Epílogo - Página 2*/
+	
+	#fim1 {
+		position: absolute;
+		width: 39%;
+		height: auto;
+		left: 54%;
+		top: 2.1%;
+	}
+	
+	#fim2 {
+		position: absolute;
+		width: 18.5%;
+		height: auto;
+		left: 77%;
+		top: 3%;
+	}
+
+/*--------------------C O N T R A C A P A----------------------------*/
+
+#fundoContraCapa {
+ background-image: url("imagens/contracapa.png");
+ background-color: #cccccc;
+ height: 100%;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ position: relative;
+}
